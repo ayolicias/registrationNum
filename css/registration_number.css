@@ -1,0 +1,90 @@
+@media query(max-width: 300px) {
+  li {
+    list-style: none;
+    border-radius: 15px;
+    background-color: #F8F9F9;
+    width: 8em;
+    margin-left: 5px;
+    margin-top: 10px;
+    display: block;
+    padding: 10px;
+    text-align: center;
+  }
+}
+
+
+body{
+box-sizing: border-box;
+margin: 0;
+}
+
+.header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+.message{
+  color: red;
+}
+h3{
+  font-style: oblique;
+  font-weight: bolder;
+  font-size: 30px;
+}
+#input{
+  text-align: center;
+  font-style: oblique;
+  font-weight: bolder;
+  font-size: 30px;
+}
+#input h3{
+  font-size: 0.8em;
+  font-style: italic;
+  margin-top: 1em;
+
+}
+.container {
+    position: left;
+    background-color: #e7e7e7;
+    width: 100%;
+    font-size: 20px;
+    padding: 30px;
+    text-align: center;
+    margin-top: 3em;
+    border: 0.8em solid #f1f1f1;
+}
+
+.display {
+  padding-left: 5px;
+}
+ li {
+   list-style: none;
+   border-radius: 15px;
+   background-color: #F8F9F9;
+   width: 8em;
+   margin-left: 5px;
+   margin-top: 10px;
+   display: inline-block;
+   padding: 10px;
+   text-align: center;
+ }
+#btnAdd{
+  background-color: #EAF9F7;
+  margin-right: 2em;
+}
+#btnClear{
+  background-color: #EAF9F7;
+}
+
+ .cun{
+
+   margin-bottom: 2rem;
+   font-size: 0.8em;
+   font-weight: bolder;
+   font-style: italic;
+ }
+
+ #AddBtn{
+   width: 60%;
+   margin-left: 8rem;
+ }

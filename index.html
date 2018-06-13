@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  <link rel="stylesheet" href="css/registration_number.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+    <b><h3>REGISTRATION NUMBERS</h3></b>
+
+</div>
+    <div class="row" id="input">
+      <div class="four columns">
+        <h3>Reg Numbers:</h3> <input type="text"placeholder="enter RegNum " pattern="[A-Z]{2,3}\s\d{3}\W\d{3}" required class="inputName"id="opt">
+      </div>
+
+      <div class="two columns">
+        <h3>Towns:</h3>
+        <select id="Select"id="opt">
+          <option value="allTowns">All towns</option>
+          <option value="CA ">CapeTown</option>
+          <option value="CJ ">Paarl</option>
+          <option value="CAW">George</option>
+          <option value="CL ">Stellenbonch</option></p></b>
+        </select>
+      </div>
+    </div>
+    <!-- <div class="row">
+      <div class="three columns cun">
+        Count:<span class="count">0</span>
+      </div>
+    </div> -->
+
+
+    <div class="message">
+
+    </div>
+    <div class="row" id="AddBtn">
+      <div class="three columns">
+        <input type="button" class="AddBtn" value="ADD" id="btnAdd">
+      </div>
+      <div class="three columns">
+        <input type="button" name="clear" value="clear" class="clear"id="btnClear">
+      </div>
+    </div>
+    <div class="display">
+
+    </div>
+    <div class="registration"></div>
+  </div>
+</body>
+<script src="js/registration_number.js" charset="utf-8"></script>
+<script src="js/registration_number.dom.js" charset="utf-8"></script>
+
+
+</html>
