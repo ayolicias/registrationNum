@@ -12,7 +12,7 @@ describe('registrations',function(){
     });
   });
   describe('Error messages', function(){
-    it('should duplicate Registration Number ',function(){
+    it('should not duplicate Registration Number ',function(){
       var num = Registration();
       num.regKey('CA 456');
       num.regKey('CA 456');
